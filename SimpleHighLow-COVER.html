@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bill High or Low – COVER</title>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<style>
+  html, body { height: 100%; margin: 0; }
+  body { display: grid; place-items: center; background: #f4f4f4; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+  .wrap { width: 100%; max-width: 1280px; }
+  h1 { text-align: center; margin: 0.75rem 0; font-size: 1.4rem; }
+  .player {
+    width: min(96vw, 1280px);
+    height: min(80vh, 800px);
+    background: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 28px rgba(0,0,0,.12);
+    display: grid; place-items: center;
+    position: relative;
+  }
+  .stage {
+    transform-origin: center center;
+    will-change: transform;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Bill High or Low – COVER (may crop)</h1>
+    <div class="player" id="player">
+      <div class="stage" id="stage">
+        <embed id="swf" src="SimpleHighLow.swf" />
+      </div>
+    </div>
+  </div>
+<script>
+(function(){
+  const player = document.getElementById('player');
+  const stage = document.getElementById('stage');
+  function getCanvasSize(){
+    const c = player.querySelector('canvas');
+    if (c && c.width && c.height) return {w:c.width, h:c.height};
+    return null;
+  }
+  function scaleCover(){
+    const boxW = player.clientWidth, boxH = player.clientHeight;
+    const size = getCanvasSize();
+    if(!size) return;
+    const scale = Math.max(boxW/size.w, boxH/size.h);
+    stage.style.transform = `scale(${scale})`;
+  }
+  let tries = 0;
+  const t = setInterval(() => {
+    scaleCover();
+    tries++;
+    if (getCanvasSize() || tries>60) clearInterval(t);
+  }, 200);
+  window.addEventListener('resize', scaleCover);
+})();
+</script>
+</body>
+</html>
