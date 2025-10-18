@@ -1,0 +1,135 @@
+<trivia>
+	<item>
+		<question type="text">How old is Bill?</question>
+		<answers>
+			<answer type="text">12 years old</answer>
+			<answer type="text">8 years old</answer>
+			<answer type="text">19 years old</answer>
+			<answer type="text">5 years old</answer>
+		</answers>
+		<hint>Less than 20 years old.</hint>
+		<fact>He is a healthy cat with a shiny coat!</fact>
+	</item>
+
+	<item>
+		<question type="file">Triviaimages/billquestion7.jpg</question>
+		<answers>
+			<answer type="file">Triviaimages/billchoice_treat1.jpg</answer>
+			<answer type="file">Triviaimages/billchoice_treat2.jpg</answer>
+			<answer type="file">Triviaimages/billchoice_treat3.jpg</answer>
+			<answer type="file">Triviaimages/billchoice_treat4.jpg</answer>
+		</answers>
+		<hint>This treat is good for his teeth!</hint>
+		<fact>He loves treat time!!!!</fact>
+	</item>
+
+	<item >
+		<question type="text">What time is Bill's dinner?</question>
+		<answers>
+			<answer type="text">6:00 pm</answer>
+			<answer type="text">8:30 pm</answer>
+			<answer type="text">7:00 pm</answer>
+			<answer type="text">5:00 pm</answer>
+		</answers>
+		<hint>During the news hour.</hint>
+		<fact>He has always wanted dinner at 6pm sharp!</fact>
+	</item>
+
+	<item>
+		<question type="file">Triviaimages/billquestion3.jpg</question>
+		<answers>
+			<answer type="file">Triviaimages/billchoice_foods1.jpg</answer>
+			<answer type="file">Triviaimages/billchoice_foods2.jpg</answer>
+			<answer type="file">Triviaimages/billchoice_foods3.jpg</answer>
+			<answer type="file">Triviaimages/billchoice_foods4.jpg</answer>
+		</answers>
+		<hint>A type of canned fish.</hint>
+		<fact>He is not too picky about food, but prefers the tuna in oil.</fact>
+	</item>
+
+	<item>
+		<question type="text">What is Bill's favorite season?</question>
+		<answers>
+			<answer type="text">Winter</answer>
+			<answer type="text">Spring</answer>
+			<answer type="text">Summer</answer>
+			<answer type="text">Autumn</answer>
+		</answers>
+		<hint>The trees are bare.</hint>
+		<fact>Because he can watch the birds from the window as he lays on the heater.</fact>
+	</item>
+
+	<item>
+		<question type="text">How did Bill and Kay meet?</question>
+		<answers>
+			<answer type="text">He jumped in Kay's car.</answer>
+			<answer type="text">At a bar</answer>
+			<answer type="text">Playing pinochle</answer>
+			<answer type="text">At an animal rescue center</answer>
+		</answers>
+		<hint>It was outside the house.</hint>
+		<fact>When Kay opened her car door on the street, Bill jumped in!</fact>
+	</item>
+
+	<item>
+		<question type="text">Where does Bill sleep at night?</question>
+		<answers>
+			<answer type="text">On Kay's bed</answer>
+			<answer type="text">Living room couch</answer>
+			<answer type="text">Cat bed beside the TV</answer>
+			<answer type="text">Big daddy's chair</answer>
+		</answers>
+		<hint>Next to his best friend.</hint>
+		<fact>He likes sleeping in Kay's bed, but sometimes he tries other beds if people don't mind.</fact>
+	</item>
+
+	<item>
+		<question type="text">What kind of breed Bill?</question>
+		<answers>
+			<answer type="text">Brown Mackerel Tabby/Domestic Shorthair</answer>
+			<answer type="text">American stripe</answer>
+			<answer type="text">Persian</answer>
+			<answer type="text">Mike (3 color cat)</answer>
+		</answers>
+		<hint>Two answers are right!</hint>
+		<fact>He has beautiful striped fur coat and his belly is gold color.</fact>
+	</item>	
+
+	<item>
+		<question type="file">Triviaimages/billquestion10.jpg</question>
+		<answers>
+			<answer type="file">Triviaimages/billchoice_animal1.jpg</answer>
+			<answer type="file">Triviaimages/billchoice_animal2.jpg</answer>
+			<answer type="file">Triviaimages/billchoice_animal3.jpg</answer>
+			<answer type="file">Triviaimages/billchoice_animal4.jpg</answer>
+		</answers>
+		<hint>This animal sleeps upside down.</hint>
+		<fact>Bill didn't know what it was or what to do!</fact>
+	</item>
+
+	<item>
+		<question type="text">Where does Bill freshen up?</question>
+		<answers>
+			<answer type="text">His bathhouse</answer>
+			<answer type="text">The litterbox</answer>
+			<answer type="text">The toilet</answer>
+			<answer type="text">In the basement</answer>
+		</answers>
+		<hint>It has a roof.</hint>
+		<fact>He likes plenty of quiet and privacy.</fact>
+	</item>
+
+	<item>
+		<question type="text">Where does Bill sleep during the day?</question>
+		<answers>
+			<answer type="text">On the rocking chair</answer>
+			<answer type="text">Outside</answer>
+			<answer type="text">In the bathtub</answer>
+			<answer type="text">On the kitchen table</answer>
+		</answers>
+		<hint>Furniture that moves!</hint>
+		<fact>He likes the relaxed motion of the rocking chair.</fact>
+	</item>
+
+
+</trivia>
